@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecom2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tutor.css">
+    <link rel="stylesheet" href="css/resposive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+<body>
+
+    <section id="header">
+        <a href="index.html">hometutorhisar</a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Student</a></li>
+                <li><a class="active" href="tutor.html">Join as A Tutor</a></li>
+                <li class="dropdown"><a class="dropbtn" onclick="myFunction()">Contact</a>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="tel:+919992120735"><i class="fa-solid fa-phone"> Call</i></a>
+                        <a href="https://wa.me/+919729736242"><i class="fa-brands fa-whatsapp"> Whatsapp</i></a>
+                        <a href="mailto:ugatease@gmail.com"><i class="fa-solid fa-envelope"> E-Mail</i></a>
+                      </div>
+                    </li>
+                <a href="#" id="close" class="fas fa-outdent"></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section class="hero">
+        <div class="top-container">
+        <img class="top-cloud" src="image/cloud.svg" alt="cloud-image">
+        <h1>WELCOME <br>TUTOR's</h1>
+        <img class="bottom-cloud" src="image/cloud.svg" alt="cloud-image">
+        <img class="land" src="image/land.svg" alt="mountain-image">
+        </div>
+      </section>
+
+    <section class="content">
+        <div class="middle-container">
+            <div class="profile">
+                <h2>Hello.</h2>
+                <div class="skill-row">
+                    <p>We're providing Home Tuition / Tutors classes in hisar</p>
+                </div>
+            </div>
+            <hr>
+            <div class="skills">
+                <h2>Facilities Available</h2>
+                <div class="skill-row">
+                    <ul style="line-height:180%; ">
+                        <li>You must be at least 18 years of age to register with us.</li>
+                        <li>Your profile is your letter to the student, so emphasize your strong tutoring skills.</li>
+                        <li>Check your spelling and grammar to ensure you create the right impression.</li>
+                        <li>Enter correct information in the right place only.</li>
+                        <li>You will be asked to prove your identity and provide references.</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="contact-me" >
+                <section class="form">
+                    <form action="https://sheetdb.io/api/v1/1ebl5zxpmg5mz" method="post" id="sheetdb-form">
+                        <div class="form">
+                            <div class="form-heading">
+                                <h2 style="color:#fff ;">Register as A Totur</h2>
+                            </div>
+                            <div class="login">
+                                <div class="form-group">	
+                                    <input type="text" name="data[name]" placeholder="Enter Name" class="form-control"required>
+                                </div>
+                                <div class="form-group">	
+                                    <input type="tel" name="data[mobile]" placeholder="Entert Mobile Number" class="form-control"required>
+                                </div>
+                                <div class="form-group-lp">
+                                    <div class="form-group">
+                                        <input id="address" name="data[email]" class="form-control" type="email" placeholder="Enter Your E-Mail" required>
+                                    </div>
+                                </div>
+                                <div class="form-group-lp">
+                                    <div class="form-group">	
+                                        <input type="text" name="data[qualification]" value="" placeholder="Enter your Qualification" class="form-control"required>
+                                    </div>
+                                </div>
+                                <div class="form-group-lp" >
+                                    <div class="form-group">
+                                        <input id="Subject" name="data[experience]" class="form-control" type="text" placeholder="Enter your Teaching experience" required>
+                                    </div>
+                                </div>
+                                <div class="form-group-lp" >
+                                    <div class="form-group">
+                                        <input id="address" name="data[address]" class="form-control" type="text" placeholder="Enter Your Address" required>
+                                    </div>
+                                </div>
+                                <div class="form-group-lp">
+                                    <div class="form-group">
+                                        <input id="address" name="data[city]" class="form-control" type="text" placeholder="Enter Your City" required>
+                                    </div>
+                                </div>
+                                <div class="form-group-lp">
+                                    <div class="form-group">
+                                        <input id="address" name="data[other-information]" class="form-control" type="text" placeholder="Other information :- some other talent" required>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn">Register as A Tutor</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </section>        
+            </div>
+        </div>
+    </section>
+    <section class="bottom" id="contact">
+        <div class="bottom-container">
+            <h2 style="color:white; margin-bottom: 30px; margin-top: 0%;" >Get In Touch</h2>
+            <a href="https://wa.me/+919729736242"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="mailto:ugatease@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://youtube.com/channel/UCAPXS7T6ob1_2xIwzGuWJgQ"><i class="fa-brands fa-youtube"></i></a>
+            <p class="bottom-line">© hometutorhisar@team</p>
+        </div>
+    </section>
+    
+  
+    <script src="js/index.js"></script>
+    <script>
+        var form = document.getElementById('sheetdb-form');
+ form.addEventListener("submit", e =>{
+     e.preventDefault();
+     fetch(form.action, {
+         method: "POST",
+         body: new FormData(document.getElementById("sheetdb-form")),
+             
+     }).then(
+         response => response.json()
+     ).then((html) => {
+         window.open("registertutor.html","_blank");
+     });
+ });
+     
+
+    </script>
+</body>
+</html> 
